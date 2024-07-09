@@ -118,6 +118,10 @@ adm vuelosHacia: 'parana' desde: 'Concepcion del Uruguay' entre: fechaSalida y: 
 adm fecha1:fechaSalida destino:'catamarca'.
  
 
+ventana:= VConsultarPasaje new.
+ventana adm:adm.
+ventana open.
+
 adm viajantesVuelo: 1.
 
 adm eliminarVuelo:2.
