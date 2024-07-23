@@ -126,11 +126,9 @@ adm viajantesVuelo: 1.
 
 adm eliminarVuelo:2.
 
-v2:= VAgregarPersona new.
-personaAgregar:= Persona new.
-v2 persona: personaAgregar.
-v2 open. 
 
+programa := VMenuPrincipal new.
+programa adm 
 
 
 
